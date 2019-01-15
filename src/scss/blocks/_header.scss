@@ -1,0 +1,129 @@
+header {
+	background: url("../img/header-bg.png") no-repeat 0 -21px;
+	background-size: cover;
+	padding-bottom: 24px;
+	.logo {
+		margin-top: 60px;
+	}
+	.email, .phone {
+		margin-top: 5px;
+		a {
+			font-family: $open-font;
+			font-weight: bold;
+			font-size: 18px;
+			color: #333333;
+			background-size: contain;
+		}
+	}
+	.email {
+		text-align: right;
+		a {
+			background: url("../img/email-icon.png") no-repeat center left;
+			padding-left: 40px;
+		}
+	}
+	.phone {
+		a {
+			background: url("../img/phone-icon.png") no-repeat center left;
+			padding-left: 35px;
+			margin-left: 39px;
+		}
+	}
+	.menu {
+		margin-top: 30px;
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+			margin-left: 161px;
+			li {
+				display: inline-block;
+				margin-right: 58px;
+				a {
+					font-family: $russo-font;
+					font-size: 30px;
+					text-transform: uppercase;
+					color: #333333;
+					transition: .3s;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.text_and_btn {
+		margin-top: 30px;
+		ul {
+			list-style-type: none;
+			padding-left: 15px;
+			li {
+				font-family: $open-font;
+				color: #333333;
+				font-size: 16px;
+				margin-bottom: 10px;
+				&:last-child {
+					margin-bottom: 33px;
+				}
+			}
+		}
+	}
+	.clients {
+		margin-top: 88px;
+		h4 {
+			text-align: center;
+		}
+		.clients-img-block {
+			display: flex;
+			align-items: center;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+		}
+		.clients-img {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 105px;
+			height: 35px;
+			margin-top: 20px;
+			cursor: pointer;
+			filter: grayscale(100%);
+			transition: .3s;
+			img {
+				max-width: 90px;
+			}
+			&:hover {
+				filter: grayscale(0);
+			}
+		}
+	}
+	.clients-text {
+		margin-top: 20px;
+		padding-left: 36px;
+		p {
+			font-family: $open-font;
+			font-size: 16px;
+			color: #333333;
+			text-align: left;
+		}
+	}
+}
+.btn-block {
+	display: flex;
+	justify-content: center;
+}
+.btn {
+	background: #25baa6;
+	color: #ffffff;
+	font-family: $russo-font;
+	font-size: 24px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	width: 443px;
+	padding: 17px 0;
+	border-bottom-right-radius: 50px;
+	cursor: pointer;
+}

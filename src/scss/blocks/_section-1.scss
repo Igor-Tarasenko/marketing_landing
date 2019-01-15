@@ -1,0 +1,35 @@
+.section-1 {
+	background: url("../img/first-bg.png") no-repeat 0px -145px;
+	background-size: cover;
+	padding-bottom: 32px;
+	padding-top: 30px;
+	.border-block {
+		border: 1px solid #fcdd4a;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 0;
+		height: 59px;
+		p {
+			font-size: 22px;
+			color: #ffffff;
+			text-transform: uppercase;
+			margin-left: 30px;
+		}
+		.first-border-img {
+			background: url("../img/proecting.png") no-repeat;
+			width: 37px;
+			height: 37px;
+		}
+		.second-border-img {
+			background: url("../img/installation.png") no-repeat;
+			width: 35px;
+			height: 34px;
+		}
+		.third-border-img {
+			background: url("../img/service.png") no-repeat;
+			width: 31px;
+			height: 37px;
+		}
+	}
+}
