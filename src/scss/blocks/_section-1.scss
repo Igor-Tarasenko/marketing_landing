@@ -1,35 +1,77 @@
 .section-1 {
-	background: url("../img/first-bg.png") no-repeat 0px -145px;
-	background-size: cover;
-	padding-bottom: 32px;
-	padding-top: 30px;
-	.border-block {
-		border: 1px solid #fcdd4a;
+	background: #fbfbfb;
+	padding-bottom: 40px;
+	.conviction-block {
+		margin-top: 30px;
+	}
+	.conviction {
+		background: #ffffff;
+		padding: 20px 30px 30px 30px;
+		border-bottom-right-radius: 50px;
+		height: 100%;
+	}
+	h3, h4 {
+		font-family: $russo-font;
+		color: #fbd107;
+		text-align: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	.conviction-head {
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 10px 0;
-		height: 59px;
+		justify-content: flex-start;
+		align-items: flex-end;
+		margin-bottom: 25px;
+		height: 106px;
+	}
+	.conviction-head_img {
+		margin-right: 25px;
+		img {
+			max-width: 90px;
+			max-height: 115px;
+		}
+	}
+	.conviction-description, .conviction_end {
+		padding-left: 17px;
+	}
+	.conviction-description {
+		.first-description {
+			margin-bottom: 25px;
+			p {
+				font-family: $open-font;
+				font-style: italic;
+				font-size: 24px;
+				color: #333333;
+			}
+		}
+		.second-description {
+			margin-bottom: 40px;
+			p {
+				font-family: $open-font;
+				font-size: 18px;
+				font-weight: 200;
+				color: #333333;
+			}
+		}
+	}
+	.conviction_end {
 		p {
-			font-size: 22px;
-			color: #ffffff;
-			text-transform: uppercase;
-			margin-left: 30px;
+			font-family: $open-font;
+			font-size: 24px;
+			font-weight: 200;
+			color: #333333;
+			span {
+				font-family: $russo-font;
+				font-size: 24px;
+				text-transform: uppercase;
+				color: #fbd107;
+			}
 		}
-		.first-border-img {
-			background: url("../img/proecting.png") no-repeat;
-			width: 37px;
-			height: 37px;
-		}
-		.second-border-img {
-			background: url("../img/installation.png") no-repeat;
-			width: 35px;
-			height: 34px;
-		}
-		.third-border-img {
-			background: url("../img/service.png") no-repeat;
-			width: 31px;
-			height: 37px;
-		}
+	}
+	.btn-block {
+		margin-top: 40px;
 	}
 }

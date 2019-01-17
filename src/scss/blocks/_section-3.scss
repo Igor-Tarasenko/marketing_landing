@@ -1,120 +1,50 @@
 .section-3 {
-	padding: 50px 0;
-	.how_it_works {
-		margin-top: 30px;
-		padding-top: 120px;
-	}
-	.step {
-		padding: 15px;
-		background: #30518e;
-		color: #ffffff;
-		border-top: 1px solid #bababa;
-		border-bottom: 1px solid #bababa;
-		border-left: 1px solid #30518e;
-		border-right: 1px solid #30518e;
-		transition: .35s ease;
-		cursor: pointer;
-		p {
-			text-transform: uppercase;
-			font-size: 13px;
-			font-weight: 600;
-			text-align: center;
-		}
-		&:hover {
-			background: #ffffff;
-			color: #333333;
-			border-top: 1px solid #bababa;
-			border-bottom: 1px solid #bababa;
-			border-left: 1px solid #bababa;
-			border-right: 1px solid #bababa;
-		}
-		.step_img {
-			width: 100%;
-			height: 43px;
-			margin-bottom: 10px;
-		}
-		.img {
-			background: url("../img/create_project.png") no-repeat center;
-			background-size: contain;
-		}
-		.img2 {
-			 background: url("../img/conclude_agreetment.png") no-repeat center;
-			 background-size: contain;
-		}
-		.img3 {
-			background: url("../img/preparing_project.png") no-repeat center;
-			background-size: contain;
-		}
-		.img4 {
-			background: url("../img/doing_installation.png") no-repeat center;
-			background-size: contain;
-		}
-		.img5 {
-			background: url("../img/testing.png") no-repeat center;
-			background-size: contain;
-		}
-		.img6 {
-			background: url("../img/build_project.png") no-repeat center;
-			background-size: contain;
+	background: #ffffff;
+	padding: 100px 0 50px 0;
+	h4 {
+		text-align: center;
+		line-height: 32px;
+		color: #333333;
+		span {
+			background: #fbd007;
+			padding: 0 5px;
 		}
 	}
-	.slider {
-		margin-top: 30px;
-	}
-	.carousel-inner {
-		border: 2px solid #f0eeee;
-	}
-	.carousel-indicators {
-		bottom: 100%;
-		margin-left: 0;
-		margin-right: 0;
-		li {
-			width: auto;
-			height: auto;
-			text-indent: 0;
-			margin-left: 0;
-			margin-right: 0;
-		}
-		.active {
-			background: #ffffff;
-			color: #333333;
-			border-top: 1px solid #bababa;
-			border-bottom: 1px solid #bababa;
-			border-left: 1px solid #bababa;
-			border-right: 1px solid #bababa;
-		}
-	}
-	.slide {
-		img {
-			width: 100%;
-		}
-		.slide_text {
-			padding: 20px 15px;
-			p {
-				font-size: 16px;
-				color: #333333;
-				font-weight: 300;
-				&:first-child {
-					font-size: 22px;
-					font-weight: 500;
-					text-transform: uppercase;
-					margin-bottom: 15px;
-					text-align: center;
-				}
+	.appeal-block {
+		&:nth-child(2) {
+			.appeal-img {
+				height: 180px;
+			}
+			.appeal-title {
+				margin-bottom: 67px;
 			}
 		}
-		.carousel-control-prev, .carousel-control-next {
-			width: 6%;
+		&:last-child {
+			.appeal-title {
+				margin-bottom: 35px;
+			}
 		}
-		.carousel-control-prev-icon {
-			background: url("../img/arrow-left.png") no-repeat center left;
-			width: 30px;
-			height: 57px;
+	}
+	.appeal-title {
+		margin-bottom: 15px;
+	}
+	.appeal-img {
+		margin-bottom: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.appeal-description {
+		margin-top: 30px;
+		p {
+			font-family: $open-font;
+			font-size: 18px;
+			font-weight: 200;
+			color: #333333;
+			text-align: center;
 		}
-		.carousel-control-next-icon {
-			background: url("../img/arrow-right.png") no-repeat center left;
-			width: 30px;
-			height: 57px;
+		&:first-child {
+			margin-top: 0;
 		}
 	}
 }

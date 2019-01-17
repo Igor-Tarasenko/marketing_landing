@@ -1,56 +1,52 @@
 .section-2 {
-	padding: 40px 0;
-	.advantage {
-		text-align: center;
-		margin-top: 50px;
-		.advantage_text {
-			p {
-				font-weight: 300;
-				font-size: 16px;
-				color: #333333;
-				&:first-child {
-					font-weight: 600;
-					text-transform: uppercase;
-					font-size: 18px;
-				}
+	.view-main-block {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.view-block {
+		background: url("../img/picture.png") no-repeat;
+		background-size: contain;
+		height: 468px;
+		width: 33.34%;
+		transition: .15s;
+		margin-left: -1px;
+		&:first-child {
+			margin-left: 0;
+		}
+		&:hover {
+			border-bottom-right-radius: 105px;
+			a {
+				visibility: visible;
+			}
+			.view-block_hover {
+				border: 30px solid #ffffff;
 			}
 		}
-		.first-img {
-			background: url("../img/independent.png") no-repeat center;
-			background-size: contain;
-		}
-		.second-img {
-			background: url("../img/autonomy.png") no-repeat center;
-			background-size: contain;
-		}
-		.third-img {
-			background: url("../img/lower_price.png") no-repeat center;
-			background-size: contain;
-		}
-		.fourth-img {
-			background: url("../img/quick_payback.png") no-repeat center;
-			background-size: contain;
-		}
-		.fifth-img {
-			background: url("../img/good_investments.png") no-repeat center;
-			background-size: contain;
-		}
-		.six-img {
-			background: url("../img/stable_income.png") no-repeat center;
-			background-size: contain;
-		}
-		.seventh-img {
-			background: url("../img/durability.png") no-repeat center;
-			background-size: contain;
-		}
-		.eight-img {
-			background: url("../img/min_cost.png") no-repeat center;
-			background-size: contain;
-		}
 	}
-	.advantage-img {
-		width: 100%;
-		height: 80px;
-		margin-bottom: 25px;
+	h3 {
+		font-family: $russo-font;
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #ffffff;
+		text-align: left;
+		line-height: 36px;
+		margin-bottom: 15px;
+		width: 94%;
+	}
+	.view-block_hover {
+		border-bottom-right-radius: 100px;
+		padding: 35px 0 0 40px;
+		height: 100%;
+		border: 30px solid transparent;
+		transition: .3s;
+	}
+	a {
+		font-family: $open-font;
+		font-size: 24px;
+		font-weight: bold;
+		color: #fbd107;
+		text-decoration: underline;
+		text-transform: uppercase;
+		visibility: hidden;
 	}
 }
