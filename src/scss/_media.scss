@@ -99,6 +99,9 @@
 	header .text_and_btn ul {
 		padding-left: 0;
 	}
+	header .menu ul li a {
+		font-size: 25px;
+	}
 	header .clients {
 		margin-top: 40px;
 	}
@@ -300,6 +303,7 @@
 	.section-8 .form-group .btn {
 		margin-left: 0;
 		margin-top: 30px;
+		font-size: 20px;
 	}
 	.section-3 .appeal-description {
 		margin-top: 15px;
@@ -316,10 +320,73 @@
 		background-size: cover;
 		border-bottom-right-radius: 50px;
 	}
+	.section-7 .blog:hover, .section-7 .youtube:hover, .section-7 .vk:hover, .section-7 .fb:hover {
+		background-size: cover;
+	}
+	.section-1 .conviction {
+		padding: 0 15px 30px 15px;
+	}
+	.section-1 .conviction-head {
+		height: 100px;
+	}
 }
 @media screen and (max-width: 541px) {
 	h1 {
 		font-size: 34px;
 		line-height: 40px;
+	}
+}
+@media screen and (max-width: 444px) {
+	.btn {
+		width: 320px;
+	}
+	h2 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	h1 {
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 0;
+	}
+	.section-8 .form-group input {
+		height: 60px;
+	}
+	.section-5 h3 {
+		margin-left: 0;
+	}
+	.section-5 .book-block {
+		margin-top: 50px;
+	}
+	.section-8 p {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 390px) {
+	h1 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.section-2 .view-block {
+		height: 300px;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+}
+@media screen and (max-width: 340px) {
+	h1 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	h4 {
+		font-size: 17px;
+	}
+	.section-5 .book-block {
+		justify-content: center;
+	}
+	header .clients .clients-img-block {
+		margin-left: 40px;
 	}
 }
