@@ -1,7 +1,37 @@
 footer {
 	background: #ffffff;
-	padding: 35px 0;
-	.col-12 {
+	padding: 30px 0 0 0;
+	a {
+		display: block;
+		font-family: $open-font;
+		font-size: 18px;
+		font-weight: bold;
 		text-align: center;
+	}
+	.footer-title {
+		text-align: center;
+		margin-bottom: 50px;
+		p {
+			font-family: $open-font;
+			font-size: 18px;
+			font-weight: 400;
+			color: #333333;
+			text-transform: uppercase;
+		}
+	}
+	.footer-icon {
+		margin-bottom: 40px;
+		padding: 0;
+	}
+	.footer-icon_img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 79px;
+		margin-bottom: 20px;
+	}
+	.last-block {
+		background: url("../img/footer-bg.png");
+		height: 122px;
 	}
 }

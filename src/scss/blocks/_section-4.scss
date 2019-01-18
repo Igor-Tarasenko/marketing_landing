@@ -1,11 +1,12 @@
 .section-4 {
 	background: url("../img/comment-bg.png");
+	padding-bottom: 50px;
 	.comment-block {
 		margin-top: 35px;
 	}
 	.user {
 		display: flex;
-		align-items: baseline;
+		align-items: center;
 		justify-content: flex-start;
 	}
 	.img_user {
@@ -60,28 +61,57 @@
 			height: 19px;
 		}
 	}
-	.second-comment-block {
+	.second-comment, .third-comment-block {
 		.comment-block {
-			&:first-child {
-				.user {
-					justify-content: flex-end;
+			.user {
+				justify-content: flex-end;
+			}
+			.img_user {
+				margin-right: 0;
+				margin-left: 30px;
+			}
+			.position {
+				p {
+					text-align: right;
 				}
-				.img_user {
-					margin-right: 0;
-					margin-left: 30px;
+			}
+			.comment-text {
+				&:before {
+					content: '';
+					transform: scale(-1, 1);
+					left: 90%;
 				}
-				.position {
-					p {
-						text-align: right;
-					}
-				}
-				.comment-text {
-					&:before {
-						content: '';
-						transform: scale(-1, 1);
-						left: 90%;
-					}
-				}
+			}
+		}
+	}
+	.galina {
+		.comment-text {
+			margin-top: 0;
+			&:before {
+				content: '';
+				top: 70px;
+				left: -12px;
+				transform: rotate(319deg);
+			}
+		}
+	}
+	.third-comment-block {
+		.comment-text {
+			&:before {
+				content: '';
+				transform: scale(-1, 1);
+				left: 78%!important;
+			}
+		}
+	}
+	.last-comment-block {
+		.comment-text {
+			margin-top: 0;
+			&:before {
+				content: '';
+				top: 34px;
+				left: -12px;
+				transform: rotate(319deg);
 			}
 		}
 	}

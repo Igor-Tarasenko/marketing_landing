@@ -1,87 +1,62 @@
 .section-7 {
-	background: #30518e;
-	background-size: cover;
-	padding: 25px 0 0 0;
-	.bg-block {
-		background: url("../img/batteries.png") no-repeat bottom;
-		padding-bottom: 60px;
-	}
-	.block-with-slayder {
-		background: #ffffff;
-		padding: 40px 15px;
-		border-radius: 5px;
-	}
-	h2 {
-		margin-bottom: 20px;
-	}
-	.slayd {
-		img {
-			width: 100%;
-			height: auto;
+	background: url("../img/comment-bg.png");
+	padding: 45px 0;
+	.link {
+		background: url("../img/grey-bgpng.png") no-repeat;
+		background-size: contain;
+		height: 205px;
+		padding: 20px 10px 0 10px;
+		transition: .3s;
+		p {
+			font-family: $russo-font;
+			font-size: 30px;
+			text-transform: uppercase;
+			color: #333333;
+			text-align: center;
+			margin-bottom: 9px;
 		}
-	}
-	.slayd_text {
 		a {
-			color: #30518e;
-			text-decoration: underline;
-			font-size: 18px;
-			font-weight: bold;
 			display: block;
-			margin-top: 20px;
 		}
-		.text-description {
-			display: flex;
-			align-items: baseline;
-			justify-content: flex-start;
-			flex-flow: row wrap;
-			margin-top: 20px;
+		&:hover {
 			p {
-				font-size: 20px;
-				color: #333333;
-				font-weight: 600;
-				&:first-child {
-					text-transform: uppercase;
-					font-weight: 300;
-					margin-right: 10px;
-				}
-			}
-		}
-		.price {
-			p {
-				&:last-child {
-					color: #f88f3b;
-					font-size: 36px;
-					font-weight: bold;
-				}
+				color: #ffffff;
 			}
 		}
 	}
-	.carousel-control-prev-icon {
-		background: url("../img/prev-arrow.png") no-repeat;
-		width: 30px;
-		height: 57px;
+	.fb, .vk, .youtube {
+		img {
+			max-height: 124px;
+		}
 	}
-	.carousel-control-next-icon {
-		background: url("../img/next-arrow.png") no-repeat;
-		width: 30px;
-		height: 57px;
+	.fb {
+		&:hover {
+			background: url("../img/blue-bg.png") no-repeat;
+			background-size: contain;
+		}
 	}
-	.carousel-control-prev, .carousel-control-next {
-		width: 3%;
+	.vk {
+		&:hover {
+			background: url("../img/blue-bg.png") no-repeat;
+			background-size: contain;
+		}
 	}
-	.btn-block {
-		margin-top: 40px;
+	.youtube {
+		&:hover {
+			background: url("../img/blue-bg.png") no-repeat;
+			background-size: contain;
+		}
 	}
-	.btn {
-		background: #fcdd4a;
-		border-radius: 5px;
-		padding: 16px 16px;
-		width: 363px;
-	}
-	.more-project {
-		display: none;
-		.slayd {
-			margin-top: 30px;
+	.blog {
+		img {
+			max-height: 156px;
+		}
+		p {
+			margin-bottom: -22px;
+		}
+		&:hover {
+			background: url("../img/blue-bg.png") no-repeat;
+			background-size: contain;
 		}
 	}
 }

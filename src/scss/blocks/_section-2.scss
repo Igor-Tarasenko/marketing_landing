@@ -5,11 +5,9 @@
 	}
 	.view-block {
 		background: url("../img/picture.png") no-repeat;
-		background-size: contain;
 		height: 468px;
 		width: 33.34%;
 		transition: .15s;
-		margin-left: -1px;
 		&:first-child {
 			margin-left: 0;
 		}

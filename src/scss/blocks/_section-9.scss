@@ -1,36 +1,52 @@
 .section-9 {
-	background: url("../img/fifth-bg.png") no-repeat;
-	background-size: cover;
-	height: 627px;
-	padding: 46px 0 130px 0;
-	.transparent-block {
-		background: rgba(255, 255, 255, .8);
-		padding: 40px 15px;
-		p {
-			text-transform: uppercase;
-			font-size: 20px;
-			color: #333333;
-			text-align: center;
-		}
-		h2 {
-			line-height: 48px;
-			margin: 20px 0;
+	background: url("../img/comment-bg.png");
+	padding: 70px 0;
+	.item {
+		position: relative;
+		.new {
+			position: absolute;
+			top: -45px;
+			right: 15px;
+			width: 93px;
+			height: 93px;
 		}
 	}
-	.numbers {
-		margin-top: 50px;
-		a {
-			display: block;
-			font-size: 36px;
-			text-align: center;
-			color: #173b72;
-			font-weight: 600;
-			text-decoration: none;
-		}
+	.bg-block {
+		background: #ffffff;
+		padding: 30px 10px 1px 10px;
+	}
+	.title_item {
+		background: url("../img/calendar.png") no-repeat center left;
+		padding-left: 55px;
 		p {
+			font-family: $open-font;
 			font-size: 18px;
-			text-transform: none;
-			margin-bottom: 20px;
+			line-height: 24px;
+			font-weight: bold;
+			text-align: left;
+			color: #333333;
+			text-transform: uppercase;
+		}
+	}
+	.img-block {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		margin: 30px 0;
+		max-height: 200px;
+		height: 200px;
+	}
+	.item_footer {
+		background: url("../img/footer-bg.png");
+		border-bottom-right-radius: 50px;
+		p {
+			font-family: $russo-font;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #333333;
+			text-align: center;
+			padding: 15px 12px;
 		}
 	}
 }

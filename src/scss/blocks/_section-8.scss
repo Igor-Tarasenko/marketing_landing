@@ -1,32 +1,49 @@
 .section-8 {
-	padding: 50px 0 70px 0;
-	h3 {
-		font-size: 23px;
-		text-transform: none;
-		font-weight: 400;
-		margin-top: 15px;
+	padding: 45px 0;
+	h4 {
+		text-align: left;
+		margin-bottom: 10px;
 	}
 	p {
-		font-size: 22px;
-		color: #333333;
+		font-family: $open-font;
+		font-size: 18px;
 		font-weight: 400;
-		text-align: left;
+		text-transform: uppercase;
+		background: url("../img/arrow.png") no-repeat bottom right;
+		padding-bottom: 27px;
+		width: 49%;
+	}
+	.subscribe {
 		margin-top: 30px;
 	}
-	ul {
-		list-style-type: none;
-		padding-left: 0;
-		margin-top: 30px;
-		li {
-			background: url("../img/ellipse.png") no-repeat center left;
-			padding-left: 30px;
-			margin-top: 10px;
-			font-size: 22px;
+	.form-group {
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+		margin-top: 20px;
+		input {
+			border: 2px solid #dadada;
+			background: transparent;
+			font-family: $open-font;
+			font-size: 18px;
 			color: #333333;
-			font-weight: 400;
-			&:first-child {
-				margin-top: 0;
-			}
+			padding-left: 15px;
+			outline: none;
+			width: 500px;
+		}
+		.btn {
+			margin-left: 25px;
+			background: #25baa6;
+			color: #ffffff;
+			font-family: $russo-font;
+			font-size: 24px;
+			border: none;
+			outline: none;
+			padding: 17px 0;
+			border-bottom-right-radius: 50px;
+			cursor: pointer;
+			width: 300px;
 		}
 	}
+
 }
